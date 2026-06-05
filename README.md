@@ -1,15 +1,15 @@
-# Contribution [#]: [Issue Title]
+# Contribution 1: Deprecate CLI args configs for Native Modules
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 1  
+**Student:** Isabella Socci  
+**Issue:** https://github.com/dimensionalOS/dimos/issues/2232  
+**Status:** Phase I Complete
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+This issue involves migrating native module configuration from CLI arguments to stdin-based initialization, which is the approach already supported for Rust modules. Understanding how different module types receive configs at startup is a good entry point to the dimos codebase, which I found interesting as it's a robotics SDK/OS that doesn't depend on ROS. The issue was scoped enough to be approachable as a first contribution while still touching meaningful infrastructure.
 
 ---
 
